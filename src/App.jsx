@@ -2,35 +2,35 @@
 
 export default function App() {
   return (
-    <div className="max-w-2xl mx-auto my-8 p-6 bg-white rounded-lg shadow-md border-b-8 border-b-orange-500 font-roboto">
+    <div className="max-w-2xl mx-auto my-8 p-6 bg-white rounded-lg shadow-md border-b-8 border-b-orange-500 font-poppins">
       <div className="flex items-center justify-between mb-4">
         <div className="flex flex-col gap-4">
 
         <h1 className="text-3xl text-gray-800"><span>clearlydecoded/</span><span className="font-bold">html-css-javascript-tutorial</span></h1>
-      <p className="text-gray-600">Example code for HTML, CSS, and Javascript for Web Developers Coursera Course</p>
+      <p className="text-gray-600 opacity-75">Example code for HTML, CSS, and Javascript for Web Developers Coursera Course</p>
         </div>
           <img className="h-24 w-24 ml-12" alt="Profile image" src="/bg-removed.png" />
       </div>
       <div className="flex justify-between items-end">
       <div className="flex items-center mt-4">
         <div className="flex mr-10">
-          <UsersIcon className="text-gray-500 mr-2" />
-          <span className="text-gray-500"><span className=" text-black">0</span><br/>Contributors</span>
+          <UsersIcon className="text-gray-500 mr-2 relative top-1" />
+          <span className="text-gray-500 text-sm"><span className=" text-black text-base">0</span><br/>Contributors</span>
         </div>
         <div className="flex mr-10">
-          <BugIcon className="text-gray-500 mr-2" />
-          <span className="text-gray-500"><span className=" text-black">0</span><br/>Issues</span>
+          <BugIcon className="text-gray-500 mr-2 relative top-1" />
+          <span className="text-gray-500 text-sm"><span className=" text-black text-base">0</span><br/>Issues</span>
         </div>
         <div className="flex mr-10">
-          <StarIcon className="text-gray-500 mr-2" />
-          <span className="text-gray-500"><span className=" text-black">5</span><br/>Stars</span>
+          <StarIcon className="text-gray-500 mr-2 relative top-1" />
+          <span className="text-gray-500 text-sm"><span className=" text-black text-base">5</span><br/>Stars</span>
         </div>
         <div className="flex mr-10">
-          <GitForkIcon className="text-gray-500 mr-2" />
-          <span className="text-gray-500"><span className=" text-black">5</span><br/>Forks</span>
+          <GitForkIcon className="text-gray-500 mr-2 relative top-1" />
+          <span className="text-gray-500 text-sm"><span className=" text-black text-base">5</span><br/>Forks</span>
         </div>
       </div>
-      <img className="h-8 w-8" src="/git-logo.png" alt="" />
+      <img className="h-8 w-8 opacity-50" src="/git-logo.png" alt="" />
       </div>
       
     </div>
@@ -42,8 +42,8 @@ function BugIcon(props) {
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="16"
+      height="16"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -72,8 +72,8 @@ function GitForkIcon(props) {
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="16"
+      height="16"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -96,8 +96,8 @@ function StarIcon(props) {
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="16"
+      height="16"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -116,8 +116,8 @@ function UsersIcon(props) {
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="16"
+      height="16"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
